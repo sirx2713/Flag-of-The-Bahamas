@@ -1,0 +1,24 @@
+h1{
+    font-family: "SF Pro Display", serif;
+}
+#triangle{
+    width: 0;
+    height: 0;
+    border-left: 450px solid black;
+    border-top: 300px solid transparent;
+    border-bottom: 300px solid transparent;
+    position: absolute;
+}
+#blue-rectangle{
+    height: 600px;
+    width: 1200px;
+    background: #00A9CE;
+    position: relative;
+}
+#blue-rectangle > #yellow-rectangle{
+    height: 200px;
+    width: 1200px;
+    background: #FDDA25;
+    position: absolute;
+    top: 200px;
+}
